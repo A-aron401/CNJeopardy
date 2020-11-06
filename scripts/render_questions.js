@@ -34,6 +34,10 @@ let questionValues = [100, 200, 300, 400, 500];
  *      HINT: Use the + operator on a string and a variable to join them!
  *      Need more help? Check out https://bit.ly/2EIsD3b or ask a volunteer.
  */
-function renderQuestions() {
-    // Add code here
+function renderQuestions() {   
+     {for(let i < numCategories;i++);
+    for (const iterator of object) {
+        
+    } 
+    }
 }

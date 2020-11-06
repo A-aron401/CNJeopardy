@@ -33,5 +33,13 @@ let categories = [
  *      Answer: https://bit.ly/3gOwrga
  */
 function renderCategories() {
-    // Add code here
+    $("#categories").append("<div class='category'><div class='category-cell'> Robots </div></div>")
+    $("#categories").append("<div class='category'><div class='category-cell'> Nicknames </div></div>")
+    $("#categories").append("<div class='category'><div class='category-cell'>Famous First Words</div></div>")
+    $("#categories").append("<div class='category'><div class='category-cell'>Going Dark</div></div>")
+    $("#categories").append("<div class='category'><div class='category-cell'>Fictional Companies</div></div>")
+    $("#categories").append("<div class='category'><div class='category-cell'>Painfully Obvious</div></div>")   
+}
+for(element of categories) {
+    console.log(element)
 }
