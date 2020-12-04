@@ -40,7 +40,7 @@ function attachClickHandlers() {
     let categoryIndex = $(questionElement).attr("data-category");
     let moneyValue = $(questionElement).text().replace("$", "");
     $(questionElement).click(() => {
-//console.log("hi");
+console.log(moneyValue);
       questionOnClick(categoryIndex,moneyValue);
       // Add code here
     });
@@ -62,7 +62,7 @@ function questionOnClick(categoryIndex, moneyValue) {
   $("#question-modal-text").html(question.question_text);
   $("#question-modal-show-answer")
     .click(() => {
-      // Add code here
+      $("")
       console.log("I just got clicked, I wish I could do more though!");
     })
     .show();

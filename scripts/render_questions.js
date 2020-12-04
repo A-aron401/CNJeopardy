@@ -46,7 +46,7 @@ let htmlString= "<div class='questions-column'>";
 
      htmlString=
 htmlString +  
-"<div class='question-cell'data-category'"+i+"'>$"
+"<div class='question-cell' data-category='"+i+"'>$"
  + questionValues[j] +"</div>";
     } 
 htmlString = htmlString + "/div";
