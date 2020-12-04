@@ -40,6 +40,8 @@ function attachClickHandlers() {
     let categoryIndex = $(questionElement).attr("data-category");
     let moneyValue = $(questionElement).text().replace("$", "");
     $(questionElement).click(() => {
+//console.log("hi");
+      questionOnClick(categoryIndex,moneyValue);
       // Add code here
     });
   });
